@@ -494,3 +494,21 @@ Promise-based HTTP Client similar to Fetch. Checking of request status & parsing
 // .catch((err)=>{
 //     console.log(err);
 // });
+
+                    /*CHAINED AXIOS REQUESTS*/
+// axios.get('https://swapi.dev/api/planets/')
+// .then((response)=>{
+//     for(let planet of response.data.results){
+//         console.log(planet.name);
+//     }
+//     const nextURL = response.data.next;
+//     return axios.get(nextURL);
+// })
+// .then((response)=>{
+//     for(let planet of response.data.results){
+//         console.log(planet.name);
+//     }
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
