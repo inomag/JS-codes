@@ -2,7 +2,7 @@
 
 # JAVASCRIPT EXAMPLES :pushpin:
 ___
-The files contain several examlpes on **JavaScript** topics alongwith a brief description on its usage.
+The files contain several examples on **JavaScript** topics alongwith a brief description on its usage.
 
 To use, uncomment the required block of code and run the [HTML](index.html) file.
 
